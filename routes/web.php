@@ -14,9 +14,12 @@ use App\Http\Controllers\FormController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+Route::get('/', [FormController::class, 'index'])->name('forms.index');
 
 Route::get('/form/add', function () {
     return view('add-form');

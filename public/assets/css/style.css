@@ -128,3 +128,41 @@ div#formBuilderArea {
   padding: 10px;
   width: 100%;
 }
+
+div#noFields {
+  text-align: center;
+  font-size: 20px;
+  /* top: 20px; */
+  border: 1px solid #ddd;
+  min-height: 80vh;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.text-right.edit_delete_sec .edit_btn {
+  color: forestgreen;
+}
+
+.text-right.edit_delete_sec .delete_btn {
+  color: red;
+}
+.dlt_option {
+  color: red;
+}
+
+label.checkbox-label {
+  margin: 0 5px;
+}
+input.checkbox-input {
+  margin: 0 5px;
+}
+
+label.radio-label {
+  margin: 0 5px;
+}
+input.radio-input {
+  margin: 0 5px;
+}
